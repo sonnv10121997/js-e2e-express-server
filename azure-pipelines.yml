@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  demands: agent.name -equals my-self-hosted-agent
+  demands: Agent.Name -equals my-self-hosted-agent
 
 steps:
 - task: NodeTool@0
